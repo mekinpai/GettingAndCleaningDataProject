@@ -6,14 +6,14 @@ from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Sma
 # Data Transformation Steps
 
 1. Unzip the downloaded file and load these following files into R global environment (the column names are also assigned):
-  1.1 UCI HAR Dataset/features.txt - contains the list of all features.
-  1.2 UCI HAR Dataset/activity_labels.txt - contains the activity name for each class label
-  1.3 UCI HAR Dataset/test/X_test.txt - test set with the measurements for all features
-  1.4 UCI HAR Dataset/test/Y_test.txt - activity labels for the test set
-  1.5 UCI HAR Dataset/test/subject_test.txt - contains subjectID of the test set
-  1.6 UCI HAR Dataset/train/X_train.txt - training set with the measurements for all features
-  1.7 UCI HAR Dataset/train/y_train.txt - activity labels for the training set
-  1.8 UCI HAR Dataset/train/subject_train.txt - contains subjectID of the training set
+⋅⋅1.1 UCI HAR Dataset/features.txt - contains the list of all features.
+⋅⋅1.2 UCI HAR Dataset/activity_labels.txt - contains the activity name for each class label
+⋅⋅  1.3 UCI HAR Dataset/test/X_test.txt - test set with the measurements for all features
+⋅⋅  1.4 UCI HAR Dataset/test/Y_test.txt - activity labels for the test set
+⋅⋅  1.5 UCI HAR Dataset/test/subject_test.txt - contains subjectID of the test set
+⋅⋅  1.6 UCI HAR Dataset/train/X_train.txt - training set with the measurements for all features
+⋅⋅  1.7 UCI HAR Dataset/train/y_train.txt - activity labels for the training set
+⋅⋅  1.8 UCI HAR Dataset/train/subject_train.txt - contains subjectID of the training set
 
 2. Merge the test set and training set together 
   2.1 merge data from 1.3, 1.4, and 1.5 by column together
