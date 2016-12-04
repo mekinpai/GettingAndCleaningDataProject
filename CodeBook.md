@@ -1,6 +1,7 @@
 # Original Data Source
 
-Human Activity Recognition Using Smartphones Data Set from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Human Activity Recognition Using Smartphones Data Set 
+from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 # Data Transformation Steps
 
@@ -33,3 +34,28 @@ Human Activity Recognition Using Smartphones Data Set from http://archive.ics.uc
   6.2 export the data from step 6.1 to a summaryTidyData.txt file
 
 # summaryTidyData.txt
+
+This file is the desired "tidy" dataset. It contains:
+
+subjectID - the ID of the 30 volunteers within an age bracket of 19-48 years
+activity_label - the Class ID of the activity the volunteer perform
+activity_name - the name of the activity the volunteer perform
+66 mean and standard deviation of the measurement of 3-axial signals in the X, Y and Z directions.
+
+# Variables
+
+features, activity_labels, x_test, y_test, subject_test, x_train, y_train, subject_train contain the data from step 1.
+test_data and train_data are the result from merging x_test, y_test, subject_test and x_train, y_train, subject_train accordingly
+all_data is the result from merging test_data and train_data together. It is also the first "tidy" dataset
+summaryTidyData is another tidy dataset resulted from summarizing the all_data by each activity and subject
+
+
+
+
+
+
+
+
+
+
+
